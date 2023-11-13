@@ -1,0 +1,143 @@
+label.error{
+  display: none!important;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+form {
+  padding: 15px;
+  width: 500px;
+  min-width: 500px;
+}
+
+form input {
+  width: 600px;
+    height: 68px;
+    border: 1px solid #217A7B;
+    border-radius: 40px;
+    margin: 19px auto;
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+form input.error{
+  border-color:red;
+}
+
+form textarea {
+  width: 100%;
+  border: 1px solid #c3c3c3;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  line-height: 18px;
+}
+
+form button {
+
+  cursor: pointer;
+
+  font-family: Montserrat;
+  font-weight: 400;
+  text-align: center;
+  color: #ECECEC;
+
+  border-radius: 40px;
+  border: 0;
+  background: #217A7B;
+  height: 69px;
+  width: 230px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center; /* или 'flex-start' если хотите их выровнять по левому краю */
+  align-items: center; /* выровнять элементы по вертикали */
+  }
+
+body {
+  font-family: Montserrat;
+  color: #393939;
+  font-size: 20px;
+  line-height: 1.2;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #fff1eb, #ace0f9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+    width: 700px; /* Измените на желаемую ширину */
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1286px;
+
+}
+
+.form-container {
+  margin: 0 27px;
+  justify-content: space-between;
+  display: flex;
+}
+
+
+.container a, img {
+  justify-content: center;
+  font-family: Montserrat;
+  color: #393939;
+  text-align: center;
+  text-decoration: none;
+  margin:0 35px;
+  align-items: center;
+  font-size: 16px;
+  display: flex;
+  padding: 20px 0;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+.content-title {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 700px;
+    padding: 0;
+  }
+  form {
+    width: 100%;
+    padding: 0;
+  }
+  form input {
+    width: 560px;
+  }
+}
+
